@@ -99,7 +99,7 @@ def main():
     # read data
     stopwords = [line.strip() for line in open("/u/32/tamperm1/unix/git/nlp-course-project/src/stopwords.txt.lst", 'r')]
     dcty = get_y_dataset('/u/32/tamperm1/unix/git/nlp-course-project/src/anonym_categories.csv')
-    dataset = read_csv('/u/32/tamperm1/unix/git/nlp-course-project/data/document_data_lemmatized.csv', stopwords, dcty)
+    dataset = read_csv('/u/32/tamperm1/unix/git/nlp-course-project/data/document_abstract_data_lemmatized.csv', stopwords, dcty)
     y = list()
     # populate y
     print("populate y")
