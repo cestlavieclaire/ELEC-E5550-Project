@@ -1,7 +1,7 @@
 '''
 Created on 25 Apr 2018
 
-@author: tamperm1
+@author: Minna Tamper
 '''
 import csv
 from collections import OrderedDict

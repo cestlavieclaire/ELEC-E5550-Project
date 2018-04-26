@@ -1,7 +1,7 @@
 '''
 Created on 18 Apr 2018
 
-@author: tamperm1
+@author: Minna Tamper
 '''
 
 from texture_detection import TextureDetection
